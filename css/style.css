@@ -1,0 +1,324 @@
+/* html {
+  --scrollbarBG: #f5fbfd;
+  --thumbBG: #FF8D29;
+}
+body::-webkit-scrollbar {
+  width: 12px;
+}
+body::-webkit-scrollbar-track {
+  background: var(--scrollbarBG);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: var(--thumbBG) ;
+  border-radius: 6px;
+  border: 3px solid var(--scrollbarBG);
+}
+body {
+  height: 100vh;
+  background: whitesmoke;
+  overflow-y: auto;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+ 
+  border: 1px solid rgba(0, 0, 0, 0.25)
+} */
+a:hover{
+  text-decoration: none;
+}
+
+#main-container{
+   background: url(../img/hero-bg.jpg) no-repeat 0 0;
+   background: cover;
+   width: 100%;
+   height: auto;
+}
+/* .navbar{
+  position: sticky;
+  top: 0px;
+  background-color:#80191C;
+  z-index: 1000px;
+} */
+
+.navbar-brand{
+   font-weight: bolder;
+   font-size: 2rem;
+   
+}
+.navbar-brand span{
+  color: #FF8D29;
+}
+.container ul li{
+    font-size: 1rem;
+    
+}
+ul li a{
+    color: white !important;
+    transition: 1s;
+}
+ul li a:hover{
+  color: #FF8D29 !important;
+
+}
+#banner{
+  margin-top: 50px;
+}
+#banner .banner-text div{
+   color: #FF8D29;
+  font-family: 'Shadows Into Light', cursive;
+   font-size: 2rem;
+   margin-bottom: 30px;
+   
+
+}
+#banner{
+    padding: 20px 10px;
+   
+}
+#banner .banner-text h2{
+    color: rgb(230, 217, 217);
+    font-size: 4rem;
+    font-family: sans-serif;
+    font-weight: bolder;
+    display: inline-block;
+ 
+ }
+ #banner .banner-text p{
+    color: rgb(230, 217, 217);
+    font-size: 1.2rem;
+    font-family: sans-serif;
+ }
+ #banner .banner-text button{
+    background-color: #FF8D29;
+    border: #FF8D29;
+    height: 40px;
+    width: 30%;
+
+ }
+
+ .banner-text button a{
+    color: white;
+    font-family:sans-serif;
+    font-weight: bold;
+    margin-bottom: 10px 0px;
+   
+ }
+ .banner-text button a:hover{
+  color: black;
+ }
+ .section{
+   padding-top: 70px;
+   padding-bottom: 70px;
+   background-color: rgb(224, 221, 215);
+ }
+ #card-wigged{
+   border: 5px solid rgb(224, 221, 215);;
+   background-color: aliceblue;
+   text-align: center;
+   transition: 1s;
+ }
+ #card-wigged:hover{
+  background-color: #FF8D29;
+ }
+ .section-title:hover{
+  color: aliceblue;
+ }
+ 
+ .section-title h3{
+   padding: 10px;
+ }
+ .section-title i{
+   color: #FF8D29;
+   font-size: 60px;
+   padding: 0px 50px;
+ }
+
+ .section-title p{
+   padding-top: 10px;
+ }
+ #side-bar{
+   background: url(../img/hero-bg.jpg) no-repeat 0 0;
+   background: cover;
+   width: 100%;
+   height: auto;
+   text-align: center;
+ }
+
+ .side-bar-header{
+  padding-top: 100px;
+  color: white;
+  font-family: sans-serif;
+ }
+ .side-bar-header h2{
+     font-size: 3rem;
+     font-weight: bolder;
+ }
+ .side-bar-header h2 span{
+   color: #FF8D29;
+ }
+ .side-bar-header button{
+   background-color: #FF8D29;
+   font-family: sans-serif;
+   border: #FF8D29;
+   color: white;
+   font-weight: bold;
+   height: 40px;
+   width: 30%;
+ }
+ .side-bar-header button:hover{
+  background-color: #F9F6F0;
+  color: black;
+ }
+ #cards{
+   background-color: #F9F6F0;
+   padding-top:70px ;
+   margin-top: 20px;
+   font-family: sans-serif;
+  
+   
+ }
+ #cards .text{
+   color: red;
+ }
+
+ .section-head{
+   font-size: 2.5rem;
+   font-weight: bolder;
+  
+   
+ }
+
+ .section-head span{
+   color: #FF8D29;
+ }
+ .Last{
+   padding-top: 10px;
+   font-size: 1rem;
+   color: rgb(59, 58, 58);
+   
+ }
+ .card-post{
+   margin-top: 10px;
+   box-shadow: 3px 3px 3px gray;
+ }
+ .card-post h3  a{
+   color: black;
+   font-family: sans-serif;
+   font-weight: bolder;
+   font-size: 1.5rem;
+   display: inline-block;
+   margin-bottom: 10px;
+ }
+ .card-post i{
+   color: #FF8D29;
+   margin: 15px 0px;
+ }
+ .card-post{
+  background-size: cover;
+  overflow: hidden;
+ transition: 2s;
+ }
+ 
+ .card-post img:hover{
+  transform: scale(1.1);
+ 
+
+ }
+ .card-post .readmore{
+   color: black;
+   font-weight: bold;
+ }
+ .readmore:hover{
+  color: #FF8D29;
+ }
+ .card-post  span{
+   font-size: 8px;
+   padding-left: 3px;
+ }
+ #side-footer{
+  
+  margin-top:100px;
+  background: url(../img/footer-illustration.png) no-repeat 0 0;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  font-family: sans-serif;
+ }
+ .footer-head i{
+  background-color: #FF8D29;
+  color: white;
+  padding: 10px;
+  width: 30px;
+  
+ }
+ .footer-w{
+  font-size: 2rem;
+  font-weight: bolder;
+ }
+ .footer-w span{
+  color: #FF8D29;
+ }
+ .footer-title{
+  font-size: 1.5rem;
+  font-weight: bold;
+ }
+ .footer-head form input{
+  margin: 10px;
+ }
+ .footer-head form select{
+  margin: 10px;
+ 
+ }
+ .footer-head form textarea{
+  margin: 10px;
+ 
+ }
+ #form-set{
+  border: 2px solid rgba(175, 172, 172, 0.473);
+  box-shadow: 4px 5px 4px honeydew;
+  padding: 20px;
+  background-color: white;
+
+ }
+ #form-set button{
+  margin: 10px;
+  border: #FF8D29;
+  background-color: #FF8D29;
+  color: wheat;
+  width: 80%;
+  height: 40px;
+ }
+ #form-set button:hover{
+  background-color:black;
+  color: white;
+ }
+ #main-footer{
+  padding: 30px;
+  text-align: center;
+ }
+ .footer-author a{
+  color: black;
+  opacity: 0.7;
+  font-family: sans-serif;
+
+ }
+
+ 
+
+  @media (max-width: 768px){
+    .banner-text{
+      text-align: center;
+      display: inline-block;
+    }
+    .card-post{
+      margin-top: 30px;
+    }
+    .navbar{
+      text-align: center;
+    }
+    .navbar-brand{
+      margin-bottom: 20px;
+    }
+   
+  }
+   
